@@ -45,13 +45,13 @@
             background-color: rgb(256, 256, 256);
         }
                
-	    .date {
+	.date {
     	    position: absolute; /* 날짜를 절대 위치로 설정 */
-        	top: 46%; /* 세로 중앙 */
-	        left: 50%; /* 가로 중앙 */
+            top: 46%; /* 세로 중앙 */
+	    left: 50%; /* 가로 중앙 */
     	    transform: translate(-50%, -50%); /* 중앙 정렬 */
-        	color: #1E88E5; /* 날짜 색상 설정 */
-	        font-size: 120%; /* 날짜 크기 설정 */
+            color: #1E88E5; /* 날짜 색상 설정 */
+	    font-size: 180%; /* 날짜 크기 설정 */
     	    font-weight: bold; /* 글자를 볼드체로 설정 */
         	z-index: 10; /* 날짜가 이미지 위에 보이도록 설정 */
 	    }
@@ -242,21 +242,21 @@
 	
 	<div class="row">
   		<div class="tile" data-title="메일">
-    		<a href="https://email.kfri.re.kr/">
+    			<a href="https://email.kfri.re.kr/">
         		<img src="https://jisan93-link.github.io/link-home/ico/mail.ico" alt="메일">
-    		</a>
+    			</a>
 		</div>
-    <div class="tile" data-title="일정">
-        <a href="https://calendar.google.com/calendar/u/0/r/month?pli=1">
-            <img src="https://jisan93-link.github.io/link-home/ico/gcal4.ico" alt="일정">
-            <div class="date">
-                <script>
-	                const date2 = new Date().getDate(); // 직접 new Date() 사용
-    	            document.write(date2);
-                </script>
-            </div>
-        </a>
-    </div>
+  		  <div class="tile" data-title="일정">
+      			  <a href="https://calendar.google.com/calendar/u/0/r/month?pli=1">
+      			      <img src="https://jisan93-link.github.io/link-home/ico/gcal4.ico" alt="일정">
+    			        <div class="date">
+             			   <script>
+			                const date2 = new Date().getDate(); // 직접 new Date() 사용
+    	 			        document.write(date2);
+                		   </script>
+            			</div>
+        		</a>
+    		</div>
 		
 		<div class="tile" data-title="출연연">
     		<a href="https://search.naver.com/search.naver?where=news&sm=tab_jum&query=%EC%B6%9C%EC%97%B0%EC%97%B0">
